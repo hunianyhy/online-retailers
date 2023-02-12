@@ -2,6 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   // 不打包map文件
   productionSourceMap:false,
+//   解决文字标红
   transpileDependencies: true,
   devServer: {
   //port: 8080,可不写
